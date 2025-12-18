@@ -39,19 +39,19 @@ const Footer = () => {
               </div>
               <span className="text-lg font-bold">TaskFlow</span>
             </div>
-            <p className="text-background/70 leading-relaxed mb-3 text-base">
+            <p className="text-background/70 leading-relaxed mb-3 text-sm">
               Enterprise-grade task management platform trusted by 12,500+ teams worldwide. Streamline workflows, boost productivity, and achieve more together.
             </p>
           </div>
 
           <div>
-            <h4 className="font-semibold text-base mb-3">Product</h4>
+            <h4 className="font-semibold text-sm mb-3">Product</h4>
             <ul className="space-y-2">
               {footerLinks.product.map((link) => (
                 <li key={link.name}>
                   <a
                     href={link.href}
-                    className="text-background/70 hover:text-background transition-colors duration-200 text-sm"
+                    className="text-background/70 hover:text-background transition-colors duration-200 text-xs"
                   >
                     {link.name}
                   </a>
@@ -61,13 +61,13 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="font-semibold text-base mb-3">Company</h4>
+            <h4 className="font-semibold text-sm mb-3">Company</h4>
             <ul className="space-y-2">
               {footerLinks.company.map((link) => (
                 <li key={link.name}>
                   <a
                     href={link.href}
-                    className="text-background/70 hover:text-background transition-colors duration-200 text-sm"
+                    className="text-background/70 hover:text-background transition-colors duration-200 text-xs"
                   >
                     {link.name}
                   </a>
@@ -77,26 +77,26 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="font-semibold text-base mb-3">Resources</h4>
+            <h4 className="font-semibold text-sm mb-3">Resources</h4>
             <ul className="space-y-2">
               {footerLinks.resources.map((link) => (
                 <li key={link.name}>
                   <a
                     href={link.href}
-                    className="text-background/70 hover:text-background transition-colors duration-200 text-sm"
+                    className="text-background/70 hover:text-background transition-colors duration-200 text-xs"
                   >
                     {link.name}
                   </a>
                 </li>
               ))}
             </ul>
-            <h4 className="font-semibold text-base mb-3 mt-5">Legal</h4>
+            <h4 className="font-semibold text-sm mb-3 mt-5">Legal</h4>
             <ul className="space-y-2">
               {footerLinks.legal.map((link) => (
                 <li key={link.name}>
                   <a
                     href={link.href}
-                    className="text-background/70 hover:text-background transition-colors duration-200 text-sm"
+                    className="text-background/70 hover:text-background transition-colors duration-200 text-xs"
                   >
                     {link.name}
                   </a>
@@ -107,7 +107,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-background/10 mt-10 pt-6 text-center">
-          <p className="text-background/60 text-sm">
+          <p className="text-background/60 text-xs">
             © {new Date().getFullYear()} TaskFlow. All rights reserved.
           </p>
         </div>
