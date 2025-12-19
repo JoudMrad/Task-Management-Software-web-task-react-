@@ -5,17 +5,14 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-screen gradient-hero flex items-center overflow-hidden animated-gradient-bg">
       
-      {/* Animated Mesh Gradient Background */}
       <div className="hero-mesh-gradient" />
       
-      {/* Animated Orbs */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="hero-orb hero-orb-1" />
         <div className="hero-orb hero-orb-2" />
         <div className="hero-orb hero-orb-3" />
       </div>
       
-      {/* Additional floating elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-20 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-float" style={{ animationDelay: "0s" }} />
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-secondary/10 rounded-full blur-3xl animate-float" style={{ animationDelay: "1s" }} />
